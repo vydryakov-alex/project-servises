@@ -225,7 +225,7 @@ img {
     width: 97px;
     height: 51px;
     background-image: url(../img/header/logo.svg);
-    /* background-size: cover; */
+    background-size: cover;
 }
 
 .nav__separator {

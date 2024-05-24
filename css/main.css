@@ -8,10 +8,6 @@ html {
     box-sizing: inherit;
 }
 
-/* * {
-    box-sizing: border-box;
-} */
-
 html {
     height: 100%;
     scroll-behavior: smooth;
@@ -56,14 +52,12 @@ img {
 @media (min-width: 1120px) {
     .container {
         min-width: 1120px;  
-        /* padding: 0 34px;    */
     }   
 } 
 
 .header {
     display: flex;
     flex-direction: column;
-    /* padding: 19px 0; */
 }
 
 @media (min-width: 1120px) {
@@ -230,7 +224,7 @@ img {
     display: block;
     width: 97px;
     height: 51px;
-    background-image: url(../img/header/logo.png);
+    background-image: url(../img/header/logo.svg);
 }
 
 .nav__separator {
@@ -241,25 +235,25 @@ img {
 }
 
 .nav__link--menu {
-    background-image: url(../img/header/icon-menu.png);
+    background-image: url(../img/header/icon-menu.svg);
 }
 
 .nav__link--application {
-    background-image: url(../img/header/icon-application.png);
+    background-image: url(../img/header/icon-application.svg);
 }
 
 .nav__link--status {
-    background-image: url(../img/header/icon-status.png);
+    background-image: url(../img/header/icon-status.svg);
 }
 
 .nav__link--tel {
-    background-image: url(../img/header/icon-tel.png);
+    background-image: url(../img/header/icon-tel.svg);
 }
 .nav__link--message {
-    background-image: url(../img/header/icon-message.png);
+    background-image: url(../img/header/icon-message.svg);
 }
 .nav__link--contacts {
-    background-image: url(../img/header/icon-contacts.png);
+    background-image: url(../img/header/icon-contacts.svg);
 }
 
 /* -----------------main----------------- */
@@ -337,7 +331,6 @@ img {
     .description {
         display: flex;  
         justify-content: space-between;   
-     
     }
 } 
 
@@ -348,7 +341,6 @@ img {
 @media (min-width: 768px) {
     .description__wrapper {
         padding: 0;  
-     
     }
 } 
 
@@ -467,5 +459,3 @@ img {
         display: none;    
     }  
 }
-
-

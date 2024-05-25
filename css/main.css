@@ -39,13 +39,11 @@ img {
 
 .container {
     min-width: 320px;
-    /* padding: 0 16px; */
 }
 
 @media (min-width: 768px) {
     .container {
       min-width: 768px; 
-      /* padding: 0 24px; */
     }       
 } 
 
@@ -202,7 +200,6 @@ img {
 
 .nav__text {
     margin-right: 8px;
-
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;    
@@ -293,7 +290,6 @@ img {
 @media (min-width: 1120px) {
     .menu {
         flex-wrap: wrap;
-        justify-content: space-between;        
         overflow: auto;
     }
 }
@@ -313,7 +309,7 @@ img {
 
 .munu__link {
     display: block;    
-    padding: 0 16px;
+    padding: 0 15px;
     text-decoration: none;
     color: #7e7e82;
     font-weight: 500;

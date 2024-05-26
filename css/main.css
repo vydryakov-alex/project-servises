@@ -406,6 +406,7 @@ img {
     width: 320px;
     height: 176px;
     margin: 0 auto;
+    background-color: #7e7e82;
     background-image: url(../img/main/img-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
